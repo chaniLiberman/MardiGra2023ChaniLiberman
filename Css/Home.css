@@ -1,0 +1,143 @@
+#toImage {
+    display: none;
+}
+
+#carouselExampleCaptions {
+    height: 55vh;
+    background-color: #f2cc0f;
+    display: flex;
+    justify-content: center;
+    top: 0.1px;
+    z-index: 4;
+}
+
+#carouselExampleCaptions button {
+    display: none;
+}
+
+.carousel-caption {
+    backdrop-filter: blur(8px) saturate(50%);
+}
+
+h5,
+p {
+    font-family: 'Pattaya';
+    font-weight: bolder;
+}
+
+
+#innerContainer {
+    border-radius: 20px;
+    box-shadow: 9px 9px #F4F2F4, -9px -9px #F4F2F4;
+    width: 55vw;
+    padding: 30px;
+    flex-direction: column;
+}
+
+#contentArea {
+    flex-direction: row;
+    display: flex;
+}
+
+#content {
+    padding: 10px;
+    margin: 7px;
+    text-align: center;
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sponser {
+    border-top: 1px solid #9e9e9e;
+    padding: 10px;
+}
+
+h3 {
+    font-family: 'Pattaya';
+    font-weight: bold;
+    color: #9453a6;
+}
+
+#text {
+    color: #9e9e9e;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+a {
+    text-decoration: none;
+    color: #f2cc0f;
+    font-weight: bold;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.modal-dialog {
+    width: 25vw;
+}
+
+.modal-header {
+    display: block;
+}
+
+#oneHeader {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+}
+
+#twoHeader {
+    display: flex;
+    margin-left: 8px;
+    /* flex-direction: row; */
+}
+
+#name {
+    text-align: center;
+}
+
+#moreDetails {
+    width: 80%;
+    margin: 5px;
+}
+
+button {
+    background-color: #f2cc0f;
+    border-radius: 12px;
+    border: 0;
+    padding: 10px;
+    width: 100px;
+    /* display: flex;
+    justify-content: center;
+    padding-left: 25px; */
+}
+
+button a {
+    color: black;
+    font-size: 0.8rem;
+}
+
+
+
+@media (min-width:400px) and (max-width:810px) {
+    #carouselExampleCaptions {
+        display: none;
+    }
+
+    #toImage {
+        display: block;
+    }
+
+    #contentArea {
+        flex-direction: column;
+    }
+
+    #content {
+        display: flex;
+    }
+
+    #contentMore {
+        flex-direction: row;
+    }
+}

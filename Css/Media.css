@@ -1,0 +1,33 @@
+#centertMedia {
+    border-radius: 20px;
+    box-shadow: 9px 9px #F4F2F4, -9px -9px #F4F2F4;
+    width: 55%;
+    padding: 15px;
+}
+
+.containerPhotos img {
+    width: 180px;
+    height: 130px;
+}
+
+p {
+    font-size: 2rem;
+    color: #9453a6;
+    border-bottom: 3px solid #A4A3A4;
+    font-family: 'Pattaya';
+}
+
+#containerVideos {
+    display: grid;
+}
+
+@media (min-width:400px) and (max-width:810px) {
+    .row {
+        margin-left: 18%;
+    }
+
+    #centertMedia {
+        width: 75%;
+        margin-left: 10%;
+    }
+}
